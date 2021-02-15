@@ -38,5 +38,4 @@ class ProductRepositoryTest {
     void shouldNotRemoveByID() {
         assertThrows(NotFoundException.class,()->repository.removeById(1));
     }
-
 }
